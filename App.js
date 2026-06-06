@@ -13,6 +13,10 @@ app.use("/api/users", userRoutes);
 const productRoutes = require("./routes/productRoutes");
 app.use("/api/products", productRoutes);
 
+const fakeStoreApiRoutes = require("./routes/fakeStoreApiRoutes");
+app.use("/api/fakestore", fakeStoreApiRoutes);
+
+
 
 
 
